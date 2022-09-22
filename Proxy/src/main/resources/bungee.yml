@@ -1,0 +1,4 @@
+name: Proxy
+version: '${project.version}'
+main: de.regitstudios.proxy.Proxy
+description: Proxy Plugin for Regit MC Network

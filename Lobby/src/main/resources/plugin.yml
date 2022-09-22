@@ -1,0 +1,6 @@
+name: Lobby
+version: '${project.version}'
+main: de.regitstudios.lobby.Lobby
+api-version: 1.19
+authors: [ AniratakDZ ]
+description: Lobby Plugin for Regit MC Network

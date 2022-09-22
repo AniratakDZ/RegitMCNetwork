@@ -1,0 +1,46 @@
+[11:56:32] [main/INFO]: Using standard Java JCE cipher.
+[11:56:32] [main/INFO]: Using standard Java compressor.
+[11:56:32] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:5c1e956:504
+[11:56:33] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+[11:56:33] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+[11:56:33] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+[11:56:33] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+[11:56:33] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+[11:56:33] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+[11:56:33] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[11:56:33] [main/INFO]: Loaded plugin Proxy version v0.1 by null
+[11:56:33] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[11:56:33] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[11:56:33] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[11:56:33] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[11:56:33] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[11:56:33] [main/WARN]: Forced host server pvp is not defined
+[11:56:33] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[11:56:33] [main/INFO]: Enabled plugin Proxy version v0.1 by null
+[11:56:33] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[11:56:33] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[11:56:33] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[11:56:33] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[11:56:33] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[11:56:33] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25565
+[11:56:35] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:54999] <-> InitialHandler has connected
+[11:56:36] [Netty Worker IO Thread #0/WARN]: Error occurred processing connection for Anirataak AnnotatedConnectException : Connection refused: no further information: localhost/127.0.0.1:25566
+[11:56:36] [Netty Worker IO Thread #0/INFO]: [Anirataak] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[11:56:36] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:54999|Anirataak] -> UpstreamBridge has disconnected
+[11:57:07] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:55011] <-> InitialHandler has connected
+[11:57:08] [Netty Worker IO Thread #1/INFO]: [Anirataak|/127.0.0.1:55011] <-> ServerConnector [lobby] has connected
+[11:57:08] [Netty Worker IO Thread #1/INFO]: [Anirataak] disconnected with: Kicked whilst connecting to lobby: Unknown data in login hostname, did you forget to enable BungeeCord in spigot.yml?
+[11:57:08] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:55011|Anirataak] -> UpstreamBridge has disconnected
+[11:57:08] [Netty Worker IO Thread #1/INFO]: [Anirataak|/127.0.0.1:55011] <-> ServerConnector [lobby] has disconnected
+[11:57:55] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:55016] <-> InitialHandler has pinged
+[11:57:58] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:55017] <-> InitialHandler has connected
+[11:57:58] [Netty Worker IO Thread #3/INFO]: [Anirataak|/127.0.0.1:55017] <-> ServerConnector [lobby] has connected
+[11:58:41] [Netty Worker IO Thread #3/INFO]: [Anirataak] disconnected with: Server closed
+[11:58:41] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:55017|Anirataak] -> UpstreamBridge has disconnected
+[11:58:41] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:55017|Anirataak] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:58:44] [Shutdown Thread/INFO]: Closing listener [id: 0xdd1ac8d1, L:/[0:0:0:0:0:0:0:0]:25565]
+[11:58:44] [Shutdown Thread/INFO]: Closing pending connections
+[11:58:44] [Shutdown Thread/INFO]: Disconnecting 0 connections
+[11:58:44] [Shutdown Thread/INFO]: Disabling plugins
+[11:58:44] [Shutdown Thread/INFO]: Closing IO threads
+[11:58:46] [Shutdown Thread/INFO]: Thank you and goodbye
