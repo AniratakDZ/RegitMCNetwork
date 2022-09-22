@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="superlobby-plugin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Libraries/superlobby-plugin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SuperLobbyLoader-4.5.2-shaded">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Libraries/SuperLobbyLoader-4.5.2-shaded.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,41 +1,54 @@
-[15:52:01] [main/INFO]: Using standard Java JCE cipher.
-[15:52:01] [main/INFO]: Using standard Java compressor.
-[15:52:01] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:5c1e956:504
-[15:52:02] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
-[15:52:02] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
-[15:52:02] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
-[15:52:02] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
-[15:52:02] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
-[15:52:02] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
-[15:52:03] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
-[15:52:03] [main/INFO]: Loaded plugin Proxy version v0.1 by null
-[15:52:03] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
-[15:52:03] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
-[15:52:03] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
-[15:52:03] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
-[15:52:03] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
-[15:52:03] [main/WARN]: Forced host server pvp is not defined
-[15:52:03] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
-[15:52:03] [main/INFO]: Enabled plugin Proxy version v0.1 by null
-[15:52:03] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
-[15:52:03] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
-[15:52:03] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
-[15:52:03] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
-[15:52:03] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
-[15:52:04] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25565
-[15:52:10] [Netty Worker IO Thread #0/WARN]: Event ConnectionInitEvent(remoteAddress=/127.0.0.1:50569, listener=ListenerInfo(socketAddress=/0.0.0.0:25565, motd=Another Bungee server, maxPlayers=1000, tabListSize=60, serverPriority=[lobby], forceDefault=true, forcedHosts={pvp.md-5.net=pvp}, tabListType=GLOBAL_PING, setLocalAddress=true, pingPassthrough=false, queryPort=25577, queryEnabled=false, proxyProtocol=false), isCancelled=false) took 445ms to process!
-[15:52:10] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:50569] <-> InitialHandler has connected
-[15:52:11] [Netty Worker IO Thread #0/INFO]: [+] Anirataak
-[15:52:12] [Netty Worker IO Thread #0/WARN]: Error occurred processing connection for Anirataak AnnotatedConnectException : Connection refused: no further information: localhost/127.0.0.1:25566
-[15:52:12] [Netty Worker IO Thread #0/INFO]: [Anirataak] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
-[15:52:12] [Netty Worker IO Thread #0/INFO]: [-] Anirataak
-[15:52:12] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:50569|Anirataak] -> UpstreamBridge has disconnected
-[15:52:15] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:50580] <-> InitialHandler has pinged
-[15:52:16] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:50581] <-> InitialHandler has connected
-[15:52:17] [Netty Worker IO Thread #2/INFO]: [+] Anirataak
-[15:52:17] [Netty Worker IO Thread #2/INFO]: [Anirataak|/127.0.0.1:50581] <-> ServerConnector [lobby] has connected
-[15:55:40] [Netty Worker IO Thread #2/WARN]: [/127.0.0.1:50581|Anirataak] <-> DownstreamBridge <-> [lobby] - SocketException: Connection reset
-[15:55:40] [Netty Worker IO Thread #2/INFO]: [Anirataak] disconnected with: The server you were previously on went down, you have been connected to a fallback server
-[15:55:40] [Netty Worker IO Thread #2/INFO]: [-] Anirataak
-[15:55:40] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:50581|Anirataak] -> UpstreamBridge has disconnected
-[15:55:40] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:50581|Anirataak] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:29:34] [main/INFO]: Using standard Java JCE cipher.
+[16:29:34] [main/INFO]: Using standard Java compressor.
+[16:29:34] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:5c1e956:504
+[16:29:35] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+[16:29:35] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+[16:29:35] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+[16:29:35] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+[16:29:35] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+[16:29:35] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+[16:29:35] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[16:29:35] [main/INFO]: Loaded plugin Proxy version v0.1 by null
+[16:29:35] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[16:29:35] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[16:29:35] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[16:29:35] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[16:29:35] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[16:29:35] [main/WARN]: Forced host server pvp is not defined
+[16:29:35] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[16:29:35] [main/INFO]: Enabled plugin Proxy version v0.1 by null
+[16:29:35] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[16:29:35] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[16:29:35] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[16:29:35] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[16:29:35] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:5c1e956:504 by WaterfallMC
+[16:29:35] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25565
+[16:29:40] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:52720] <-> InitialHandler has connected
+[16:29:41] [Netty Worker IO Thread #0/INFO]: [+] Anirataak
+[16:29:41] [Netty Worker IO Thread #0/WARN]: Error occurred processing connection for Anirataak AnnotatedConnectException : Connection refused: no further information: localhost/127.0.0.1:25566
+[16:29:41] [Netty Worker IO Thread #0/INFO]: [Anirataak] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[16:29:41] [Netty Worker IO Thread #0/INFO]: [-] Anirataak
+[16:29:41] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:52720|Anirataak] -> UpstreamBridge has disconnected
+[16:29:42] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:52730] <-> InitialHandler has pinged
+[16:29:49] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:52732] <-> InitialHandler has connected
+[16:29:50] [Netty Worker IO Thread #2/INFO]: [+] Anirataak
+[16:29:50] [Netty Worker IO Thread #2/INFO]: [Anirataak|/127.0.0.1:52732] <-> ServerConnector [lobby] has connected
+[16:58:10] [Netty Worker IO Thread #2/INFO]: [-] Anirataak
+[16:58:10] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:52732|Anirataak] -> UpstreamBridge has disconnected
+[16:58:10] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:52732|Anirataak] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:58:10] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:63975] <-> InitialHandler has pinged
+[16:58:11] [Netty Worker IO Thread #4/INFO]: [/127.0.0.1:63978] <-> InitialHandler has connected
+[16:58:12] [Netty Worker IO Thread #4/INFO]: [+] Anirataak
+[16:58:12] [Netty Worker IO Thread #4/INFO]: [Anirataak|/127.0.0.1:63978] <-> ServerConnector [lobby] has connected
+[16:59:34] [Netty Worker IO Thread #4/INFO]: [-] Anirataak
+[16:59:34] [Netty Worker IO Thread #4/INFO]: [/127.0.0.1:63978|Anirataak] -> UpstreamBridge has disconnected
+[16:59:34] [Netty Worker IO Thread #4/INFO]: [/127.0.0.1:63978|Anirataak] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:59:34] [Netty Worker IO Thread #5/INFO]: [/127.0.0.1:63998] <-> InitialHandler has pinged
+[16:59:35] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:63999] <-> InitialHandler has connected
+[16:59:35] [Netty Worker IO Thread #6/INFO]: [+] Anirataak
+[16:59:35] [Netty Worker IO Thread #6/INFO]: [Anirataak|/127.0.0.1:63999] <-> ServerConnector [lobby] has connected
+[17:29:21] [Netty Worker IO Thread #6/WARN]: [/127.0.0.1:63999|Anirataak] <-> DownstreamBridge <-> [lobby] - SocketException: Connection reset
+[17:29:21] [Netty Worker IO Thread #6/INFO]: [Anirataak] disconnected with: The server you were previously on went down, you have been connected to a fallback server
+[17:29:21] [Netty Worker IO Thread #6/INFO]: [-] Anirataak
+[17:29:21] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:63999|Anirataak] -> UpstreamBridge has disconnected
+[17:29:21] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:63999|Anirataak] <-> DownstreamBridge <-> [lobby] has disconnected
