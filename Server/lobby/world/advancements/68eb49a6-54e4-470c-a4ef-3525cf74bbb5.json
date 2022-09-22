@@ -1,171 +1,70 @@
 {
-  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+  "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
+      "in_water": "2022-09-22 13:30:50 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/red_concrete_powder": {
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
     "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
+      "has_nether_wart": "2022-09-22 13:31:00 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/white_concrete_powder": {
+  "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
+      "in_water": "2022-09-22 13:30:50 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/combat/wooden_sword": {
+  "minecraft:recipes/building_blocks/nether_wart_block": {
     "criteria": {
-      "has_stick": "2022-09-22 12:25:49 +0200"
+      "has_nether_wart": "2022-09-22 13:31:00 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+  "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
+      "in_water": "2022-09-22 13:30:50 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/tools/wooden_axe": {
+  "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "has_stick": "2022-09-22 12:25:49 +0200"
+      "in_water": "2022-09-22 13:30:50 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+  "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
+      "in_water": "2022-09-22 13:30:50 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+  "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
+      "in_water": "2022-09-22 13:30:50 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
+  "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
+      "in_water": "2022-09-22 13:30:50 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
     "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_hoe": {
-    "criteria": {
-      "has_stick": "2022-09-22 12:25:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
+      "has_allium": "2022-09-22 13:31:06 +0200"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:desert": "2022-09-22 11:58:00 +0200"
+      "minecraft:dark_forest": "2022-09-22 13:31:00 +0200",
+      "minecraft:jungle": "2022-09-22 13:31:09 +0200"
     },
     "done": false
-  },
-  "minecraft:recipes/building_blocks/sandstone": {
-    "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_stick": "2022-09-22 12:25:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/black_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_pickaxe": {
-    "criteria": {
-      "has_stick": "2022-09-22 12:25:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/ladder": {
-    "criteria": {
-      "has_stick": "2022-09-22 12:25:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brown_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/green_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_shovel": {
-    "criteria": {
-      "has_stick": "2022-09-22 12:25:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_campfire": {
-    "criteria": {
-      "has_stick": "2022-09-22 12:25:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/crossbow": {
-    "criteria": {
-      "has_stick": "2022-09-22 12:25:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/orange_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glass": {
-    "criteria": {
-      "has_sand": "2022-09-22 11:58:08 +0200"
-    },
-    "done": true
   },
   "DataVersion": 3120
 }

@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "68eb49a6-54e4-470c-a4ef-3525cf74bbb5",
+    "name": "Anirataak",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
