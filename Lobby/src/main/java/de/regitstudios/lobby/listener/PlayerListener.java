@@ -7,6 +7,7 @@
  */
 package de.regitstudios.lobby.listener;
 
+import de.regitstudios.lobby.services.PlayerService;
 import io.papermc.paper.event.player.AsyncChatEvent;
 import net.kyori.adventure.text.Component;
 import org.bukkit.Bukkit;
@@ -31,19 +32,12 @@ import static org.bukkit.GameMode.CREATIVE;
  */
 public class PlayerListener implements Listener {
 
+    private final PlayerService playerService = new PlayerService();
+
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
-        final Player player = event.getPlayer();
-
+        playerService.initializePlayerJoin(event.getPlayer());
         event.joinMessage(null);
-
-        player.setHealth(20);
-        player.setFoodLevel(20);
-        final Location spawnLocation = requireNonNull(Bukkit.getServer().getWorld("world")).getSpawnLocation();
-        //Adjust coordinates so the spawnpoint is in the middle of the block
-        spawnLocation.set(spawnLocation.getX() + 0.5, spawnLocation.getY(), spawnLocation.getZ() + 0.5);
-        player.teleport(spawnLocation);
-        player.getInventory().clear();
     }
 
     @EventHandler
@@ -53,7 +47,9 @@ public class PlayerListener implements Listener {
 
     @EventHandler
     public void onBlockBreak(BlockBreakEvent event) {
-        event.setCancelled(true);
+        if(event.getPlayer().getGameMode() != CREATIVE) {
+            event.setCancelled(true);
+        }
     }
 
     @EventHandler
