@@ -1,54 +1,46 @@
-[11:57:39] [ServerMain/INFO]: Building unoptimized datafixer
-[11:57:40] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:57:42] [ServerMain/INFO]: Loaded 7 recipes
-[11:57:43] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[11:57:43] [Server thread/INFO]: Loading properties
-[11:57:43] [Server thread/INFO]: This server is running Paper version git-Paper-162 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 339e85d)
-[11:57:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:57:43] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:57:44] [Server thread/INFO]: Default game type: SURVIVAL
-[11:57:44] [Server thread/INFO]: Generating keypair
-[11:57:44] [Server thread/INFO]: Starting Minecraft server on *:25566
-[11:57:44] [Server thread/INFO]: Using default channel type
-[11:57:44] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[11:57:44] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[11:57:44] [Server thread/INFO]: [Lobby] Loading Lobby vv0.1
-[11:57:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:57:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:57:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:57:44] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[11:57:44] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[11:57:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:57:44] [Server thread/INFO]: Preparing level "world"
-[11:57:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:57:46] [Server thread/INFO]: Time elapsed: 279 ms
-[11:57:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:57:46] [Server thread/INFO]: Time elapsed: 126 ms
-[11:57:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:57:46] [Server thread/INFO]: Time elapsed: 118 ms
-[11:57:46] [Server thread/INFO]: [Lobby] Enabling Lobby vv0.1
-[11:57:46] [Server thread/INFO]: Running delayed init tasks
-[11:57:46] [Server thread/INFO]: Done (2.788s)! For help, type "help"
-[11:57:46] [Server thread/INFO]: Timings Reset
-[11:57:58] [User Authenticator #0/INFO]: UUID of player Anirataak is 68eb49a6-54e4-470c-a4ef-3525cf74bbb5
-[11:57:58] [Server thread/INFO]: Anirataak joined the game
-[11:57:59] [Server thread/INFO]: Anirataak[/127.0.0.1:55021] logged in with entity id 90 at ([world]477.5, 66.0, -403.5)
-[11:58:11] [Async Chat Thread - #0/INFO]: [Not Secure] <Anirataak> Hello
-[11:58:34] [Async Chat Thread - #0/INFO]: [Not Secure] <Anirataak> hitler
-[11:58:41] [Server thread/INFO]: Stopping the server
-[11:58:41] [Server thread/INFO]: Stopping server
-[11:58:41] [Server thread/INFO]: [Lobby] Disabling Lobby vv0.1
-[11:58:41] [Server thread/INFO]: Saving players
-[11:58:41] [Server thread/INFO]: Anirataak lost connection: Server closed
-[11:58:41] [Server thread/INFO]: Anirataak left the game
-[11:58:41] [Server thread/INFO]: Saving worlds
-[11:58:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:58:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[11:58:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[11:58:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:58:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:58:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:58:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[11:58:50] [Server thread/INFO]: Flushing Chunk IO
-[11:58:50] [Server thread/INFO]: Closing Thread Pool
-[11:58:50] [Server thread/INFO]: Closing Server
+[12:21:52] [ServerMain/INFO]: Building unoptimized datafixer
+[12:21:53] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:21:56] [ServerMain/INFO]: Loaded 7 recipes
+[12:21:57] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[12:21:57] [Server thread/INFO]: Loading properties
+[12:21:57] [Server thread/INFO]: This server is running Paper version git-Paper-162 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 339e85d)
+[12:21:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:21:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:21:57] [Server thread/INFO]: Default game type: SURVIVAL
+[12:21:57] [Server thread/INFO]: Generating keypair
+[12:21:57] [Server thread/INFO]: Starting Minecraft server on *:25566
+[12:21:57] [Server thread/INFO]: Using default channel type
+[12:21:57] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[12:21:57] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[12:21:58] [Server thread/INFO]: [Lobby] Loading Lobby vv0.1
+[12:21:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:21:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:21:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:21:58] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[12:21:58] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[12:21:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:21:58] [Server thread/INFO]: Preparing level "world"
+[12:21:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:21:59] [Server thread/INFO]: Time elapsed: 358 ms
+[12:21:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:21:59] [Server thread/INFO]: Time elapsed: 141 ms
+[12:21:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:21:59] [Server thread/INFO]: Time elapsed: 103 ms
+[12:21:59] [Server thread/INFO]: [Lobby] Enabling Lobby vv0.1
+[12:22:00] [Server thread/INFO]: Running delayed init tasks
+[12:22:00] [Server thread/INFO]: Done (2.943s)! For help, type "help"
+[12:22:00] [Server thread/INFO]: Timings Reset
+[12:22:04] [User Authenticator #0/INFO]: UUID of player Anirataak is 68eb49a6-54e4-470c-a4ef-3525cf74bbb5
+[12:22:04] [Server thread/INFO]: Anirataak[/127.0.0.1:55340] logged in with entity id 202 at ([world]479.57161298437813, 66.0, -432.4503367937115)
+[12:22:10] [Server thread/INFO]: Anirataak lost connection: Disconnected
+[12:22:23] [User Authenticator #0/INFO]: UUID of player Anirataak is 68eb49a6-54e4-470c-a4ef-3525cf74bbb5
+[12:22:23] [Server thread/INFO]: Anirataak[/127.0.0.1:55354] logged in with entity id 308 at ([world]479.30000001192093, 66.0, -432.8000283225172)
+[12:24:20] [Server thread/INFO]: Anirataak lost connection: Disconnected
+[12:25:10] [User Authenticator #1/INFO]: UUID of player Anirataak is 68eb49a6-54e4-470c-a4ef-3525cf74bbb5
+[12:25:10] [Server thread/INFO]: Anirataak[/127.0.0.1:55372] logged in with entity id 547 at ([world]475.9132448190308, 67.0, -430.6243274135142)
+[12:25:17] [Server thread/INFO]: Anirataak lost connection: Disconnected
+[12:25:22] [Server thread/INFO]: /127.0.0.1:55382 lost connection: If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
+[12:25:25] [Server thread/INFO]: /127.0.0.1:55392 lost connection: If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
+[12:25:31] [User Authenticator #1/INFO]: UUID of player Anirataak is 68eb49a6-54e4-470c-a4ef-3525cf74bbb5
+[12:25:31] [Server thread/INFO]: Anirataak[/127.0.0.1:55397] logged in with entity id 576 at ([world]475.9132448190308, 67.0, -430.6243274135142)
+[12:25:52] [Server thread/INFO]: Anirataak lost connection: Disconnected
