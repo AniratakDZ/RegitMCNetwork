@@ -1,1 +1,1 @@
-screen -d -m -S Proxy bash -c 'cd /etc/mc/regitnetwork/proxy && ./run.sh'
+sudo screen -d -m -S Proxy bash -c 'cd /etc/mc/regitnetwork/proxy && ./run.sh'
