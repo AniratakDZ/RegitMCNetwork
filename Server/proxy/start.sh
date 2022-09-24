@@ -1,2 +1,1 @@
-sudo screen -d -m -S Proxy
-sudo java -jar proxy.jar
+sudo java -Xms1024M -Xmx1024M -jar proxy.jar -o true
