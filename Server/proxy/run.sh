@@ -1,1 +1,1 @@
-sudo -Xms1G -Xmx1G --illegal-access=permit -jar proxy.jar
+sudo java -jar proxy.jar
