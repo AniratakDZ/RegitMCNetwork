@@ -1,1 +1,1 @@
-sudo java -jar server.jar
+sudo java -Xms2G -Xmx4G -jar server.jar nogui
