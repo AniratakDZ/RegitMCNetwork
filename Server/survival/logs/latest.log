@@ -1,0 +1,28 @@
+[21:05:34] [ServerMain/INFO]: Building unoptimized datafixer
+[21:05:36] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:05:36] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[21:05:39] [ServerMain/INFO]: Loaded 7 recipes
+[21:05:41] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[21:05:41] [Server thread/INFO]: Loading properties
+[21:05:41] [Server thread/INFO]: This server is running Paper version git-Paper-162 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 339e85d)
+[21:05:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:05:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:05:41] [Server thread/INFO]: Default game type: SURVIVAL
+[21:05:41] [Server thread/INFO]: Generating keypair
+[21:05:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:05:42] [Server thread/INFO]: Using default channel type
+[21:05:42] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[21:05:42] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:05:42] [Server thread/INFO]: Preparing level "world"
+[21:06:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:06:04] [Server thread/INFO]: Time elapsed: 604 ms
+[21:06:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:06:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:06:05] [Server thread/INFO]: Time elapsed: 653 ms
+[21:06:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:06:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:06:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:06:06] [Server thread/INFO]: Time elapsed: 1040 ms
+[21:06:06] [Server thread/INFO]: Running delayed init tasks
+[21:06:06] [Server thread/INFO]: Done (25.609s)! For help, type "help"
+[21:06:06] [Server thread/INFO]: Timings Reset

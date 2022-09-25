@@ -8,11 +8,6 @@
 package de.regitstudios.lobby.listener;
 
 import de.regitstudios.lobby.services.PlayerService;
-import io.papermc.paper.event.player.AsyncChatEvent;
-import net.kyori.adventure.text.Component;
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -22,9 +17,6 @@ import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.FoodLevelChangeEvent;
 import org.bukkit.event.player.*;
 
-import static java.util.Objects.requireNonNull;
-import static org.bukkit.ChatColor.GRAY;
-import static org.bukkit.ChatColor.YELLOW;
 import static org.bukkit.GameMode.CREATIVE;
 
 /**

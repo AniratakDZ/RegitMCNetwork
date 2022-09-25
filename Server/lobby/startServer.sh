@@ -1,0 +1,1 @@
+sudo screen -d -m -S Lobby bash -c 'cd /etc/mc/regitnetwork/lobby && ./run.sh'

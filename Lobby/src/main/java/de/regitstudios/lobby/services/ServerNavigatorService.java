@@ -30,10 +30,10 @@ public class ServerNavigatorService {
 
     public static String NAVIGATOR_NAME = YELLOW + "Server Navigator";
     public static String NAVIGATOR_INVENTORY_TITLE = GRAY + "Server Navigator";
-    public static String NAVIGATOR_MENU_BEDWARS_TITLE = "Bedwars";
+    public static String NAVIGATOR_MENU_SURVIVAL_TITLE = "Survival";
 
     public static int NAVIGATOR_INVENTORY_SIZE = 54;
-    public static int NAVIGAOTR_MENU_BEDWARS_INDEX = 10;
+    public static int NAVIGAOTR_MENU_SURVIVAL_INDEX = 10;
 
     public ItemStack createServerNavigator() {
         return createItemStackWithSpecificName(NAVIGATOR_NAME, COMPASS);
@@ -56,8 +56,8 @@ public class ServerNavigatorService {
     }
 
     private List<ItemStack> initializeCustomInventoryItems(List<ItemStack> inventoryItems) {
-        final ItemStack bedwarsItem = createItemStackWithSpecificName(NAVIGATOR_MENU_BEDWARS_TITLE, RED_BED);
-        inventoryItems.set(NAVIGAOTR_MENU_BEDWARS_INDEX, bedwarsItem);
+        final ItemStack survivalItem = createItemStackWithSpecificName(NAVIGATOR_MENU_SURVIVAL_TITLE, OAK_LEAVES);
+        inventoryItems.set(NAVIGAOTR_MENU_SURVIVAL_INDEX, survivalItem);
         return inventoryItems;
     }
 
