@@ -42,7 +42,7 @@ public class NavigatorListener implements Listener {
             final ItemMeta clickedItemMeta = clickedItem.getItemMeta();
             if(clickedItemMeta.getDisplayName().equals(NAVIGATOR_MENU_SURVIVAL_TITLE)) {
                 final Player player = (Player) event.getWhoClicked();
-                player.performCommand("/server survival");
+                player.performCommand("server survival");
             }
             event.setCancelled(true);
         }
