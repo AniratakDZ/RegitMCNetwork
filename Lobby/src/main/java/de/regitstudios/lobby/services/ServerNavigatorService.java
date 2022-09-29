@@ -28,12 +28,12 @@ import static org.bukkit.Material.*;
  */
 public class ServerNavigatorService {
 
-    public static String NAVIGATOR_NAME = YELLOW + "Server Navigator";
-    public static String NAVIGATOR_INVENTORY_TITLE = GRAY + "Server Navigator";
-    public static String NAVIGATOR_MENU_SURVIVAL_TITLE = "Survival";
+    public static final String NAVIGATOR_NAME = YELLOW + "Server Navigator";
+    public static final String NAVIGATOR_INVENTORY_TITLE = GRAY + "Server Navigator";
+    public static final String NAVIGATOR_MENU_SURVIVAL_TITLE = "Survival";
 
-    public static int NAVIGATOR_INVENTORY_SIZE = 54;
-    public static int NAVIGAOTR_MENU_SURVIVAL_INDEX = 10;
+    public static final int NAVIGATOR_INVENTORY_SIZE = 54;
+    public static final int NAVIGAOTR_MENU_SURVIVAL_INDEX = 10;
 
     public ItemStack createServerNavigator() {
         return createItemStackWithSpecificName(NAVIGATOR_NAME, COMPASS);

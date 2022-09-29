@@ -13,6 +13,7 @@
     <bytecodeTargetLevel>
       <module name="Lobby" target="1.8" />
       <module name="Proxy" target="1.8" />
+      <module name="ServerNavigator" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
